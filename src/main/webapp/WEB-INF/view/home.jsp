@@ -8,6 +8,6 @@
 </head>
 <body>
 
-<h1>Hii, Welcome to my first web Pages</h1>
+<h1>Home page</h1>
 </body>
 </html>
