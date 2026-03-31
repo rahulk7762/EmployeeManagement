@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">EmpManageMent System</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,80 @@
     </div>
   </div>
 </nav>
+
+
+<!-- from  -->
+
+<div class="container">
+<div class="row">
+
+<div class="col-md-6 offset-md-3">
+
+<div class="card">
+<div class="card-header text-center">
+
+<h3 class="">Add Emp</h3>
+
+<div class="card-body">
+
+
+<form action="createEmp">
+
+<div class="mb-3">
+<label>Enter Full Name</label>
+<input type="text" name="fullName" class="form-control" />
+</div>
+
+
+<div class="mb-3">
+<label>Enter Address</label>
+<input type="text" name="address" class="form-control" />
+</div>
+
+
+
+<div class="mb-3">
+<label>Enter Email</label>
+<input type="text" name="email" class="form-control" />
+</div>
+
+<div class="mb-3">
+<label>Enter Password</label>
+<input type="password" name="password" class="form-control" />
+</div>
+
+
+<div class="mb-3">
+<label>Enter Designation</label>
+<input type="text" name="designation" class="form-control" />
+</div>
+
+
+<div class="mb-3">
+<label>Enter Salary</label>
+<input type="text" name="salary" class="form-control" />
+</div>
+
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+
+
+
 
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
