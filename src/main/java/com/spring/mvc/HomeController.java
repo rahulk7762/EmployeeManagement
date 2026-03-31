@@ -2,8 +2,11 @@ package com.spring.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.spring.mvc.entity.Emp;
 
 @Controller
 public class HomeController {
@@ -22,7 +25,8 @@ public class HomeController {
 	
 	
 	@RequestMapping(path = "/createEmp", method = RequestMethod.POST)
-	public String CreateEmp() {
+	public String CreateEmp(@ModelAttribute Emp emp) {
+		System.out.println(emp);
 		return "addEmp";
 	}
 	

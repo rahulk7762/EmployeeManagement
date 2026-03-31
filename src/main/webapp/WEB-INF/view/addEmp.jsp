@@ -47,7 +47,7 @@
 <div class="card-body">
 
 
-<form action="createEmp">
+<form action="createEmp" method="post">
 
 <div class="mb-3">
 <label>Enter Full Name</label>
@@ -85,7 +85,7 @@
 </div>
 
 
-<button type="submit" class="btn btn-primary">Submit</button>
+<button class="btn btn-primary">Submit</button>
 
 </form>
 
